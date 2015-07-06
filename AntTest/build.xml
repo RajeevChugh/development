@@ -32,7 +32,7 @@
 		<mkdir dir="${dist.dir}" />
 
 		<!-- Put everything in ${build} into the {$projectName}-${DSTAMP}.jar file -->
-		<jar jarfile="${dist.dir}/${projectName}-${DSTAMP}.jar" basedir="${build.dir}">
+		<jar jarfile="${dist.dir}/${projectName}.jar" basedir="${build.dir}">
 			<manifest>
 				<attribute name="Main-Class" value="com.test.datetime.DateTimeUtil" />
 			</manifest>
